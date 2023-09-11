@@ -6,7 +6,8 @@
 - 💞️ I’m looking for new people to collaborate with.
 - 📫 You can check my LinkedIn profile https://www.linkedin.com/in/analia-acosta-engineer/
 
-If you're interested in joining me on this journey or discussing any related topics, let's connect!.
+If you're interested in joining me on this journey or discussing any related topics, let's connect!
+
 Cheers 👋 
 
 ## Languages
