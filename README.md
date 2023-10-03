@@ -16,6 +16,7 @@ Cheers 👋
 ## Tools
 - Node.js
 - Git
+- Docker
 
 ## Frameworks
 - React.js
