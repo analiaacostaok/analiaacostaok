@@ -17,6 +17,7 @@ Cheers 👋
 - Node.js
 - Git
 - Docker
+- Postman
 
 ## Frameworks
 - React.js
