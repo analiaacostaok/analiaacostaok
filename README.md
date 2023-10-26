@@ -1,3 +1,5 @@
+<img src="img/Analia Acosta.png">
+
 ## About me
 - 👋 Hi, I’m Analia Acosta, from Buenos Aires 🇦🇷
 - 👀 I’m interested in fullstack development and web3.
