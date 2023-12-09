@@ -19,13 +19,16 @@ Cheers 👋
 - Node.js
 - Git
 - Docker
+- Kubernetes
 - Postman
 
 ## Frameworks
 - React.js
 - Material-UI
 - Bootstrap
+- Tailwind
 - Express.js
+- Nest js
 
 ## Databases
 - MongoDB
