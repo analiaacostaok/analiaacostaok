@@ -1,4 +1,4 @@
-<img src="img/Analia Acosta.png">
+<img src="img/Github Banner.png">
 
 ## About me
 - 👋 Hi, I’m Analia Acosta, from Buenos Aires 🇦🇷
