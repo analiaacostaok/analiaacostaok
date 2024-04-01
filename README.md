@@ -5,14 +5,14 @@
 - 👀 I’m interested in fullstack development and web3.
 - 🌱 I’m currently learning more about Backend, Web Design, testing and agile methodologies.
 - 💞️ I’m looking for new people to collaborate with.
-- 📫 You can check my [LinkedIn profile](https://www.linkedin.com/in/analia-acosta-engineer/) and [Personal Portfolio](https://portfolio-analia.vercel.app/)
+- 📫 You can check my [LinkedIn profile](https://www.linkedin.com/in/analiaacostaok/) and [Personal Portfolio](https://portfolio-analia.vercel.app/)
 
 If you're interested in joining me on this journey or discussing any related topics, let's connect!
 
 Cheers 👋 
 
 ## Languages
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=analiaacosta2023&layout=compact)
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=analiaacostaok&layout=compact)
 
 ## Tools
 - Node.js
