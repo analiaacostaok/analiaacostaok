@@ -1,12 +1,24 @@
-## About me
-- 👋 Hi, I’m Analia Acosta, software developer from Buenos Aires 🇦🇷
-- 👀 I’m interested in fullstack development.
-- 🌱 I’m currently learning more about Backend, Web Design, testing and agile methodologies.
-- 💞️ I’m looking for new people to collaborate with.
+## 👋 About Me
 
-If you're interested in joining me on this journey or discussing any related topics, let's connect!
+I’m **Analia Acosta**, a software developer from **Buenos Aires 🇦🇷** passionate about building digital products that combine solid engineering with great design.  
+Currently, I work on **fullstack web development** and **project management**, leading cross-functional teams and shaping user-centered platforms.
 
-Cheers 👋 
+- 🚀 Experienced in **Next.js**, **TypeScript**, **React**, **Node.js**, and **Prisma**.  
+- 🧩 Skilled in translating **designs and requirements** into scalable, maintainable code.  
+- 🧠 Advocate for **agile methodologies**, clean architecture, and continuous learning.  
+- 🤝 Open to collaborating on **innovative projects**, **technical leadership**, or **product design discussions**.
 
-## Languages
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=analiaacostaok&layout=compact)
+> “Build systems that people love to use, not just code that runs.”
+
+## 🛠️ Tech Stack
+
+**Frontend:** Next.js, React, TypeScript, SCSS, Tailwind  
+**Backend:** Node.js, Express, Prisma, PostgreSQL, MongoDB  
+**Tools & Workflow:** GitHub Projects, Postman, Figma, Jira, Notion, Agile/Scrum  
+**DevOps:** DigitalOcean, Vercel
+
+### 📈 GitHub Stats
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=analiaacostaok&layout=compact&theme=transparent)
+
+### 🤝 Let’s Connect
+Always open to discussing new ideas, collaborations, or challenging projects.
