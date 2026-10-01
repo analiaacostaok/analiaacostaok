@@ -30,6 +30,9 @@ jobs:
             dist/github-snake.svg?color_snake=#A66BFF&color_dots=#ebedf0,#54A0FF,#1DD1A1,#FECA57,#FF5C5C
             dist/github-snake-dark.svg?palette=github-dark&color_snake=#A66BFF&color_dots=#161b22,#54A0FF,#1DD1A1,#FECA57,#FF5C5C
 
+      - name: Remove snake progress bar
+        run: python3 scripts/trim_snake.py dist/github-snake.svg dist/github-snake-dark.svg
+
       - uses: crazy-max/ghaction-github-pages@v5
         with:
           target_branch: output
