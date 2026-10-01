@@ -8,12 +8,6 @@
 <a href="https://teclas.ar"><img src="https://img.shields.io/badge/teclas.ar-FF5C5C?style=for-the-badge&logo=googlechrome&logoColor=white" alt="teclas.ar" /></a>
 <a href="https://bitbybit.com.ar"><img src="https://img.shields.io/badge/BitByBit-FF9F43?style=for-the-badge&logo=bitcoin&logoColor=white" alt="BitByBit" /></a>
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/analiaacostaok/analiaacostaok/output/github-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/analiaacostaok/analiaacostaok/output/github-snake.svg" />
-  <img src="https://raw.githubusercontent.com/analiaacostaok/analiaacostaok/output/github-snake.svg" alt="Snake eating my contribution graph" />
-</picture>
-
 </div>
 
 ## 👋 About me
@@ -42,6 +36,14 @@ I'm a **Technical Product Manager who builds**. I define requirements, plan and 
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/analiaacostaok/analiaacostaok/output/activity.svg" width="716" alt="My contributions per month over the last 12 months" />
+</p>
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/analiaacostaok/analiaacostaok/output/github-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/analiaacostaok/analiaacostaok/output/github-snake.svg" />
+    <img src="https://raw.githubusercontent.com/analiaacostaok/analiaacostaok/output/github-snake.svg" alt="Snake eating my contribution graph" />
+  </picture>
 </p>
 
 ## 🤝 Let's connect
