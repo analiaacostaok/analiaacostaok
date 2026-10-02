@@ -29,20 +29,28 @@ I'm a **Technical Product Manager who builds**. I define requirements, plan and 
 ## 🛠️ Tech stack
 
 <p align="center">
-  <img src="assets/tech-stack.svg" width="716" alt="Tech stack: TypeScript, React, Next.js, React Native / Expo, Node.js, PostgreSQL, Prisma, Drizzle, Zod, OpenAPI, Stripe, PayPal, Lightning, Vitest, Jest, GitHub Actions, Vercel, Cloudflare, AWS, Claude Code, Codex, MCP, GitHub, Linear, Jira, Notion, Figma" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/tech-stack-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="assets/tech-stack.svg" />
+    <img src="assets/tech-stack.svg" width="716" alt="Tech stack: TypeScript, React, Next.js, React Native / Expo, Node.js, PostgreSQL, Prisma, Drizzle, Zod, OpenAPI, Stripe, PayPal, Lightning, Vitest, Jest, GitHub Actions, Vercel, Cloudflare, AWS, Claude Code, Codex, MCP, GitHub, Linear, Jira, Notion, Figma" />
+  </picture>
 </p>
 
 ## 📈 Activity
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/analiaacostaok/analiaacostaok/output/activity.svg" width="716" alt="My contributions per month over the last 12 months" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/analiaacostaok/analiaacostaok/output/activity-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/analiaacostaok/analiaacostaok/output/activity.svg" />
+    <img src="https://raw.githubusercontent.com/analiaacostaok/analiaacostaok/output/activity.svg" width="716" alt="My contributions per month over the last 12 months" />
+  </picture>
 </p>
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/analiaacostaok/analiaacostaok/output/github-snake-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/analiaacostaok/analiaacostaok/output/github-snake.svg" />
-    <img src="https://raw.githubusercontent.com/analiaacostaok/analiaacostaok/output/github-snake.svg" alt="Snake eating my contribution graph" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/analiaacostaok/analiaacostaok/output/paint-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/analiaacostaok/analiaacostaok/output/paint.svg" />
+    <img src="https://raw.githubusercontent.com/analiaacostaok/analiaacostaok/output/paint.svg" width="716" alt="My contribution calendar being painted in rainbow colors" />
   </picture>
 </p>
 

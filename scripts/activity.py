@@ -1,5 +1,6 @@
-"""Render a monthly contributions chart (last 12 months) as an animated SVG."""
+"""Render a monthly contributions chart (last 12 months) as animated SVGs (light and dark)."""
 import json
+import re
 import os
 import sys
 import urllib.request
@@ -8,7 +9,7 @@ from datetime import date
 
 USER = os.environ.get("GH_USER", "analiaacostaok")
 TOKEN = os.environ["GITHUB_TOKEN"]
-OUT = sys.argv[1] if len(sys.argv) > 1 else "dist/activity.svg"
+OUT_DIR = sys.argv[1] if len(sys.argv) > 1 else "dist"
 
 QUERY = """query($login:String!){user(login:$login){contributionsCollection{
 contributionCalendar{totalContributions weeks{contributionDays{date contributionCount}}}}}}"""
@@ -62,9 +63,9 @@ parts = [
     ".v{opacity:0;animation:f .4s ease forwards}@keyframes f{to{opacity:1}}"
     '.h{font:700 18px "Segoe UI",Helvetica,Arial,sans-serif}.s{font:600 12px "Segoe UI",Helvetica,Arial,sans-serif}'
     "@media (prefers-reduced-motion:reduce){.b{animation:none;transform:none}.v{animation:none;opacity:1}}</style>",
-    f'<rect width="{W}" height="{H}" rx="18" fill="#0d1117"/>',
-    f'<text class="h" x="{left}" y="44" fill="#F0F6FC">Activity in the last 12 months</text>',
-    f'<text class="s" x="{left}" y="66" fill="#8B949E">{total:,} contributions, including private work · {label_range}</text>',
+    f'<rect width="{W}" height="{H}" rx="18" fill="__BG__"/>',
+    f'<text class="h" x="{left}" y="44" fill="__TITLE__">Activity in the last 12 months</text>',
+    f'<text class="s" x="{left}" y="66" fill="__MUTED__">{total:,} contributions, including private work · {label_range}</text>',
 ]
 for i, (key, value) in enumerate(months):
     h = (base - top) * value / peak
@@ -75,11 +76,21 @@ for i, (key, value) in enumerate(months):
     parts.append(f'<rect class="b" style="animation-delay:{d:.2f}s" x="{x:.1f}" y="{base - h:.1f}" '
                  f'width="{bw:.1f}" height="{max(h, 2):.1f}" rx="6" fill="{c}"/>')
     parts.append(f'<text class="s v" style="animation-delay:{d + .5:.2f}s" x="{x + bw / 2:.1f}" y="{base - h - 8:.1f}" '
-                 f'text-anchor="middle" fill="{c}">{value}</text>')
-    parts.append(f'<text class="s" x="{x + bw / 2:.1f}" y="{base + 22}" text-anchor="middle" fill="#8B949E">{label}</text>')
+                 f'text-anchor="middle" fill="__VALUE_{c}__">{value}</text>')
+    parts.append(f'<text class="s" x="{x + bw / 2:.1f}" y="{base + 22}" text-anchor="middle" fill="__MUTED__">{label}</text>')
 parts.append("</svg>")
 
-os.makedirs(os.path.dirname(OUT) or ".", exist_ok=True)
-with open(OUT, "w") as f:
-    f.write("\n".join(parts))
-print(f"wrote {OUT}: {total} contributions")
+# On white, bright value labels lose contrast, so the light theme darkens them.
+THEMES = {
+    "activity.svg": {"__BG__": "#FFFFFF", "__TITLE__": "#1F2328", "__MUTED__": "#57606A", "value": lambda c: mix(c, "#000000", 0.38)},
+    "activity-dark.svg": {"__BG__": "#0D1117", "__TITLE__": "#F0F6FC", "__MUTED__": "#8B949E", "value": lambda c: c},
+}
+os.makedirs(OUT_DIR, exist_ok=True)
+for name, theme in THEMES.items():
+    out = "\n".join(parts)
+    out = re.sub(r"__VALUE_(#[0-9A-F]{6})__", lambda m: theme["value"](m.group(1)), out)
+    for token in ("__BG__", "__TITLE__", "__MUTED__"):
+        out = out.replace(token, theme[token])
+    with open(os.path.join(OUT_DIR, name), "w") as f:
+        f.write(out)
+    print(f"wrote {OUT_DIR}/{name}: {total} contributions")
