@@ -1,8 +1,6 @@
-"""Tune the generated snake: remove the progress bar, crop empty space, speed up the loop."""
+"""Tune the generated snake: remove the progress bar and crop the empty space."""
 import re
 import sys
-
-SPEED = 2  # 2 = the snake loop takes half the time
 
 for path in sys.argv[1:]:
     svg = open(path).read()
@@ -15,7 +13,5 @@ for path in sys.argv[1:]:
     svg = svg.replace(f'viewBox="{old_box}"', f'viewBox="{vx:g} {vy:g} {vw:g} {new_h:g}"', 1)
     svg = re.sub(r'(<svg[^>]*?)height="[\d.]+"', rf'\g<1>height="{new_h:g}"', svg, count=1)
 
-    svg = re.sub(r"(\d+)ms", lambda m: f"{round(int(m.group(1)) / SPEED)}ms", svg)
-
     open(path, "w").write(svg)
-    print(f"tuned {path}: height {vh:g} -> {new_h:g}, {SPEED}x speed")
+    print(f"tuned {path}: height {vh:g} -> {new_h:g}")
