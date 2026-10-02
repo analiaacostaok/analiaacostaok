@@ -17,7 +17,7 @@ I'm a **Technical Product Manager who builds**. I define requirements, plan and 
 ## 🚀 What I'm working on
 
 - 🎹 **[teclas.ar](https://teclas.ar)**: my own product, a platform for music teachers and academies *(in development)*
-- 🧭 **Project delivery** at Dandelion Labs and its post-quantum cryptography practice, QuantaKrypto
+- 🧭 **Project delivery** at [Dandelion Labs](https://dandelionlabs.io) and its post-quantum cryptography practice, QuantaKrypto
 - ⚡ **[BitByBit](https://github.com/bitbybit-ar)**: open-source, Bitcoin-based apps. 🥇🥇 Two 1st places at La Crypta's Lightning Hackathons 2026
 
 ## 🤖 How I work
