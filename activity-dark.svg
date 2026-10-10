@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="716" height="300" viewBox="0 0 716 300" role="img" aria-label="4639 contributions in the last year, by month">
+<style>.b{transform-box:fill-box;transform-origin:bottom;transform:scaleY(0);animation:g .9s cubic-bezier(.2,1,.3,1) forwards}@keyframes g{to{transform:scaleY(1)}}.v{opacity:0;animation:f .4s ease forwards}@keyframes f{to{opacity:1}}.h{font:700 18px "Segoe UI",Helvetica,Arial,sans-serif}.s{font:600 12px "Segoe UI",Helvetica,Arial,sans-serif}@media (prefers-reduced-motion:reduce){.b{animation:none;transform:none}.v{animation:none;opacity:1}}</style>
+<rect width="716" height="300" rx="18" fill="#0D1117"/>
+<text class="h" x="36" y="44" fill="#F0F6FC">Activity in the last 12 months</text>
+<text class="s" x="36" y="66" fill="#8B949E">4,639 contributions, including private work · Nov 2025 – Sep 2026</text>
+<rect class="b" style="animation-delay:0.00s" x="47.1" y="235.2" width="36.3" height="14.8" rx="6" fill="#FF5C5C"/>
+<text class="s v" style="animation-delay:0.50s" x="65.3" y="227.2" text-anchor="middle" fill="#FF5C5C">71</text>
+<text class="s" x="65.3" y="272" text-anchor="middle" fill="#8B949E">Nov</text>
+<rect class="b" style="animation-delay:0.06s" x="105.7" y="239.4" width="36.3" height="10.6" rx="6" fill="#FF7E50"/>
+<text class="s v" style="animation-delay:0.56s" x="123.8" y="231.4" text-anchor="middle" fill="#FF7E50">51</text>
+<text class="s" x="123.8" y="272" text-anchor="middle" fill="#8B949E">Dec</text>
+<rect class="b" style="animation-delay:0.12s" x="164.2" y="188.9" width="36.3" height="61.1" rx="6" fill="#FF9F43"/>
+<text class="s v" style="animation-delay:0.62s" x="182.4" y="180.9" text-anchor="middle" fill="#FF9F43">293</text>
+<text class="s" x="182.4" y="272" text-anchor="middle" fill="#8B949E">Jan</text>
+<rect class="b" style="animation-delay:0.18s" x="222.8" y="213.7" width="36.3" height="36.3" rx="6" fill="#FEB44D"/>
+<text class="s v" style="animation-delay:0.68s" x="240.9" y="205.7" text-anchor="middle" fill="#FEB44D">174</text>
+<text class="s" x="240.9" y="272" text-anchor="middle" fill="#8B949E">Feb</text>
+<rect class="b" style="animation-delay:0.24s" x="281.3" y="126.6" width="36.3" height="123.4" rx="6" fill="#FECA57"/>
+<text class="s v" style="animation-delay:0.74s" x="299.5" y="118.6" text-anchor="middle" fill="#FECA57">592</text>
+<text class="s" x="299.5" y="272" text-anchor="middle" fill="#8B949E">Mar</text>
+<rect class="b" style="animation-delay:0.30s" x="339.9" y="123.1" width="36.3" height="126.9" rx="6" fill="#8ECE7C"/>
+<text class="s v" style="animation-delay:0.80s" x="358.0" y="115.1" text-anchor="middle" fill="#8ECE7C">609</text>
+<text class="s" x="358.0" y="272" text-anchor="middle" fill="#8B949E">Apr</text>
+<rect class="b" style="animation-delay:0.36s" x="398.4" y="137.2" width="36.3" height="112.8" rx="6" fill="#1DD1A1"/>
+<text class="s v" style="animation-delay:0.86s" x="416.5" y="129.2" text-anchor="middle" fill="#1DD1A1">541</text>
+<text class="s" x="416.5" y="272" text-anchor="middle" fill="#8B949E">May</text>
+<rect class="b" style="animation-delay:0.42s" x="456.9" y="154.9" width="36.3" height="95.1" rx="6" fill="#38B8D0"/>
+<text class="s v" style="animation-delay:0.92s" x="475.1" y="146.9" text-anchor="middle" fill="#38B8D0">456</text>
+<text class="s" x="475.1" y="272" text-anchor="middle" fill="#8B949E">Jun</text>
+<rect class="b" style="animation-delay:0.48s" x="515.5" y="142.0" width="36.3" height="108.0" rx="6" fill="#54A0FF"/>
+<text class="s v" style="animation-delay:0.98s" x="533.6" y="134.0" text-anchor="middle" fill="#54A0FF">518</text>
+<text class="s" x="533.6" y="272" text-anchor="middle" fill="#8B949E">Jul</text>
+<rect class="b" style="animation-delay:0.54s" x="574.0" y="92.0" width="36.3" height="158.0" rx="6" fill="#7D86FF"/>
+<text class="s v" style="animation-delay:1.04s" x="592.2" y="84.0" text-anchor="middle" fill="#7D86FF">758</text>
+<text class="s" x="592.2" y="272" text-anchor="middle" fill="#8B949E">Aug</text>
+<rect class="b" style="animation-delay:0.60s" x="632.6" y="129.9" width="36.3" height="120.1" rx="6" fill="#A66BFF"/>
+<text class="s v" style="animation-delay:1.10s" x="650.7" y="121.9" text-anchor="middle" fill="#A66BFF">576</text>
+<text class="s" x="650.7" y="272" text-anchor="middle" fill="#8B949E">Sep</text>
+</svg>
